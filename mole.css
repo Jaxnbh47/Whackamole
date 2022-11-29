@@ -1,3 +1,4 @@
+
 .sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
@@ -32,11 +33,11 @@
 
 .wgs__mole-head{
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 188;
+  height: 178px;
   left: 54.5px;
   right: 155px;
-  transition: 0.25s;
+  transition: 0.1s;
 }
 
 .wgs__dirt-pile{
@@ -44,11 +45,13 @@
   width: 320px;
   height: 110px;
   top: 131px;
+
 }
 
 
 .wgs__mole-head--hidden{
   margin-top: 500px;
+ 
 }
 
 .pf{

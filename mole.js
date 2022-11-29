@@ -1,6 +1,6 @@
 let score = 0;
-let molesLeft = 60;
-let popupLength = 1000;
+let molesLeft = 15;
+let popupLength = 700;
 let hideTimeout;
 let clickable = false;
 
@@ -43,7 +43,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
       score += 1;
       document.querySelector('.sb__score').innerHTML = score;
-      popupLength -= popupLength / 5;
+      popupLength = popupLength / 1;
 
       clearTimeout(hideTimeout);
       hideMole(event.target);
