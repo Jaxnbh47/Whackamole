@@ -1,8 +1,3 @@
-/* Your code here */
-
-
-
-/* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
 .sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
@@ -37,8 +32,8 @@
 
 .wgs__mole-head{
   position: absolute;
-  width: 188;
-  height: 178px;
+  width: 200px;
+  height: 200px;
   left: 54.5px;
   right: 155px;
   transition: 0.25s;
@@ -49,13 +44,11 @@
   width: 320px;
   height: 110px;
   top: 131px;
-
 }
 
 
 .wgs__mole-head--hidden{
   margin-top: 500px;
- 
 }
 
 .pf{
